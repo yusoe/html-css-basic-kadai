@@ -1,0 +1,48 @@
+  /* bodyのフォント設定 */
+  body {
+    font-family: "Arial", "Meiryo", sans-serif;
+    text-align: center;
+  }
+
+  /* ルート要素のフォントサイズを20pxに設定 */
+  root {
+    font-size: 20px;
+  }
+  
+  /* h1のフォント設定 */
+  h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: calc(2 * 1rem); /* ルート要素の2倍 */
+    letter-spacing: 1.2em; /* 文字サイズの1.2倍 */
+    text-shadow: 2px 2px 4px gray; /* 影の設定 */
+    border-bottom: 3px solid rgb(115, 115, 114);
+  }
+  
+  /* Mの色はスカイブルー */
+  h1 .blue {
+    color: skyblue;
+  }
+  
+  /* Pの色はピンク */
+  h1 .pink {
+    color: rgb(255, 192, 203);
+  }
+  
+  /* 名前・血液型・好きな食べ物の見出しはピンク */
+  h2.pink {
+    color: rgb(255, 192, 203);
+  }
+  
+  /* 生年月日・趣味・プログラミング～の見出しはスカイブルー */
+  h2.blue {
+    color: skyblue;
+  }
+  
+  /* 子孫要素を利用して太字に設定 */
+  #basic p {
+    font-weight: bold; 
+  }
+  
+ 
+  
+  
